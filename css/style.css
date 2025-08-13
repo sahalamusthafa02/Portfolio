@@ -954,3 +954,7 @@ img {
 .social-links a:hover {
     color: #00acee; /* hover color */
 }
+.cv-container {
+    /* text-align: center; keeps it centered */
+    margin: 10px 0 0px 0; /* top 30px, bottom 50px */
+}
