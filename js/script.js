@@ -80,3 +80,21 @@ ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .test
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
 
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,        // shows grab cursor
+    simulateTouch: true,     // enable touch gestures
+    touchRatio: 1,           // sensitivity of swipe
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
